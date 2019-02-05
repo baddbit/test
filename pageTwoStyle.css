@@ -1,0 +1,42 @@
+#body{
+  margin-top: 0;
+  background-image: url(stucco.png);
+}
+
+#header{
+  margin-top: 0;
+  width: 1300px;
+  height: 40px;
+  background-color: #303030;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+}
+
+#banner{
+  margin-top: 0;
+  height: 40px;
+  line-height: 40px;
+  color: white;
+  width: 100%;
+}
+
+#bannerText{
+    margin-top: 0;
+    text-align: right;
+    color: #A9A9A9
+}
+
+#artStoreHeading{
+  margin-top: 0;
+  width: 1300px;
+}
+
+#artStoreText{
+  margin-top: 0;
+  vertical-align: bottom;
+  font-size: 48pt;
+  margin-left: 210px;
+  color: #A9A9A9
+
+}
