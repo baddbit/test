@@ -74,6 +74,10 @@ border: 1px solid #D0D0D0;
         font-size: 14pt;
 }
 
+#continentStyle{
+  font-weight: bold;
+    font-size: 12pt;
+}
 #formName{
     font-size: 12pt;
     align-items: flex-start;
