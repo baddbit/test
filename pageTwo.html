@@ -1,131 +1,84 @@
-<!DOCTYPE html>
-<html>
-     <head id = "head">
-         <title>Art Store</title>
-         <meta charset="utf-8" />
-         <link href="pageTwoStyle.css" type="text/css" rel="stylesheet" />
-     </head>
-       <body id = "body">
-     <div id = "header">
-       <span id = "banner">
-         <p id = "bannerText">
-         My Account &nbsp;&nbsp;&nbsp;
-         Wish List &nbsp;&nbsp;&nbsp;
-         Shopping Cart &nbsp;&nbsp;&nbsp;
-         Checkout&nbsp;&nbsp;&nbsp;
-       </p>
-       </span>
-     </div>
+#body{
+  margin-top: 0;
+  background-image: url(stucco.png);
+}
 
-       <div id = "artStoreText">
-       Art Store
-     </div>
+#header{
+  margin-top: 0;
+  width: 1300px;
+  height: 38px;
+  background-color: #303030;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+}
 
-   <div id = "menuBox">
-     &nbsp;&nbsp;&nbsp;&nbsp;
-     Home &nbsp;&nbsp;&nbsp;&nbsp;
-     About Us &nbsp;&nbsp;&nbsp;&nbsp;
-     Art Works &nbsp;&nbsp;&nbsp;&nbsp;
-     Artists &nbsp;&nbsp;&nbsp;&nbsp;
-   </div>
-   <div id = "formBox">
-     <div id = "formBoxText">
-    &nbsp; Customer Registration
-    <br></br>
-    <dt id = "userInfo">  &nbsp;&nbsp;1. User Info</dt>
-    <div id = "formBoxHR">
-       <hr width = 98% color = #D0D0D0>
-     </div>
-     <table id = "formName">
-       <tr>
-       <th><td width = 275px>First Name</td></th><th><td width = 275px>Last Name</td></th>
-     </tr>
-     <tr>
-     <form>
-       <th><td width = 275px><input type = "text" name = "firstName"></th>
-         <th><td width = 275px><input type = "text" name = "lastName"></th>
-     </form>
-      </tr>
-         </table>
-       <table id = "formName">
-      <tr>
-        <th><td width = 275px>Email</td></th>
-      </tr>
-      <tr>
-        <th><td width = 575px><input type = "text" name = "email" size = 65></td></th>
-      </tr>
-    </table>
-    <table id = "formName">
-      <tr>
-      <th><td width = 275px>Password</td></th><th><td width = 275px>Password Repeat</td></th>
-    </tr>
-    <tr>
-    <form>
-      <th><td width = 275px><input type = "text" name = "password"></th>
-        <th><td width = 275px><input type = "text" name = "passwordRepeat"></th>
-    </form>
-     </tr>
-        </table>
-        <br>
-          <dt id = "userInfo">  &nbsp;&nbsp;2. Location</dt>
- <hr width = 98% color = #D0D0D0>
- <table id = "formName">
-<tr>
-  <th><td width = 275px>Address</td></th>
-</tr>
-<tr>
-  <th><td width = 575px><input type = "text" name = "address" size = 65></td></th>
-</tr>
-</table>
-<table id = "formName">
-  <tr>
+#banner{
+  margin-top: 0;
+  height: 38px;
+  line-height: 38px;
+  width: 100%;
+}
 
-  <th><td width = 275px>City</td></th><th><td width = 12%>&nbsp;State</td></th>
-  <td width = 50%>&nbsp;&nbsp;&nbsp;Zip</td></th>
-</tr>
-<tr>
-</table>
-  <table id = "formName">
-<form>
-  <th><td width = 280px><input type = "text" name = "city"></th>
-    <th><td width = 90px><input type = "text" name = "state" size = 6></th>
-      <th><td width = 80px><input type = "text" name = "zip" size = 10></th>
-</form>
- </tr>
-    </table>
-<table id = "formName">
-  <tr>
-    <th><td width = 280px>Phone</td></th>
-    <th><td width = 280px>Country</td></th>
-  </tr>
-</table>
-<table id = "formName">
-  <form>
-    <th><td width = 280px><input type = "text" name = "Phone"></th>
-      <th> <select>
-  <option value="volvo">Canada</option>
-  <option value="saab">United States</option>
-</select> </th>
-  </form>
-</table>
-<table id = "formName">
-  <tr>
-    <th><td width = 280px>Continent</td></th>
-  </tr>
-</table>
-<table id = "continentStyle">
-<div id = "test">
-  <form action="">
-    <input type="radio" name="continent" value="northAmerica"> North America<br>
-    <input type="radio" name="continent" value="europe"> Europe<br>
-    <input type="radio" name="continent" value="southAmerica"> South America
-  </form>
-</div>
-</table>
+#bannerText{
+  font-family: Tahoma, Verdana, sans-serif;
+    margin-top: 0;
+    text-align: right;
+    color: #A9A9A9
+}
+
+#artStoreText{
+  width: 1300px;
+  font-family: Tahoma, Verdana, sans-serif;
+  margin-top: 0;
+  font-size: 36pt;
+  color: #303030;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#menuBox{
+  font-family: Tahoma, Verdana, sans-serif;
+    margin-top: 0;
+    width: 1300px;
+    height: 38px;
+    background-color: #F5F5F5;
+    border: 1px solid #D0D0D0;
+    margin-left: auto;
+    margin-right: auto;
+    color: #A9A9A9;
+    line-height: 38px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+#formBox{
+  font-family: Tahoma, Verdana, sans-serif;
+    font-weight: bold;
+border: 1px solid #D0D0D0;
+    color: #303030;
+      font-size: 18pt;
+  margin-top: 15px;
+  width: 1300px;
+  height: 800px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+#formBoxHR{
+}
 
 
-   </div>
+#userInfo{
+      font-weight: bold;
+        font-size: 14pt;
+}
 
-
-     </body>
-</html>
+#test{
+  font-weight: normal;
+  font-size: 12pt;
+}
+#formName{
+    font-size: 12pt;
+    align-items: flex-start;
+}
