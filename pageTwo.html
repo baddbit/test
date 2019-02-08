@@ -6,9 +6,9 @@
          <link href="pageTwoStyle.css" type="text/css" rel="stylesheet" />
      </head>
        <body id = "body">
-     <div id = "header">
-       <span id = "banner">
-         <p id = "bannerText">
+     <div id = "darkHeader">
+       <span id = "darkHeaderContainer">
+         <p id = "darkHeaderText">
          My Account &nbsp;&nbsp;&nbsp;
          Wish List &nbsp;&nbsp;&nbsp;
          Shopping Cart &nbsp;&nbsp;&nbsp;
@@ -16,104 +16,99 @@
        </p>
        </span>
      </div>
-
-       <div id = "artStoreText">
+<div id = "artStoreText">
        Art Store
      </div>
 
-   <div id = "menuBox">
+   <div id = "menuContainer">
      &nbsp;&nbsp;&nbsp;&nbsp;
      Home &nbsp;&nbsp;&nbsp;&nbsp;
      About Us &nbsp;&nbsp;&nbsp;&nbsp;
      Art Works &nbsp;&nbsp;&nbsp;&nbsp;
      Artists &nbsp;&nbsp;&nbsp;&nbsp;
    </div>
-   <div id = "formBox">
+   <div id = "formBoxContainer">
      <div id = "formBoxText">
     &nbsp; Customer Registration
-    <br></br>
+    <br><br>
     <dt id = "userInfo">  &nbsp;&nbsp;1. User Info</dt>
-    <div id = "formBoxHR">
        <hr width = 98% color = #D0D0D0>
-     </div>
      <form action = "http://www.randyconnolly.com/tests/process.php" method = "get">
-     <table id = "formName">
+     <table id = "formText">
        <tr>
-       <th><td width = 275px>First Name</td></th><th><td width = 275px>Last Name</td></th>
+       <th><td width = 275px>First Name</td></th><th><td width = 275px>Last Name</td>
      </tr>
      <tr>
-       <th><td width = 275px><input type = "text" name = "firstName"></th>
-         <th><td width = 275px><input type = "text" name = "lastName"></th>
+       <th><td width = 275px><input type = "text" name = "firstName">
+         <th><td width = 275px><input type = "text" name = "lastName">
 
       </tr>
          </table>
-       <table id = "formName">
+       <table id = "formText">
       <tr>
-        <th><td width = 275px>Email</td></th>
+        <th><td width = 275px>Email</td>
       </tr>
       <tr>
-        <th><td width = 575px><input type = "text" name = "email" size = 65></td></th>
+        <th><td width = 575px><input type = "text" name = "email" size = 65></td>
       </tr>
     </table>
-    <table id = "formName">
+    <table id = "formText">
       <tr>
-      <th><td width = 275px>Password</td></th><th><td width = 275px>Password Repeat</td></th>
+      <th><td width = 275px>Password</td><th><td width = 275px>Password Repeat</td>
     </tr>
     <tr>
-      <th><td width = 275px><input type = "text" name = "password"></th>
-        <th><td width = 275px><input type = "text" name = "passwordRepeat"></th>
+      <th><td width = 275px><input type = "text" name = "password">
+        <th><td width = 275px><input type = "text" name = "passwordRepeat">
      </tr>
         </table>
         <br>
           <dt id = "userInfo">  &nbsp;&nbsp;2. Location</dt>
  <hr width = 98% color = #D0D0D0>
- <table id = "formName">
+ <table id = "formText">
 <tr>
-  <th><td width = 275px>Address</td></th>
+  <th><td width = 275px>Address</td>
 </tr>
 <tr>
-  <th><td width = 575px><input type = "text" name = "address" size = 65></td></th>
+  <th><td width = 575px><input type = "text" name = "address" size = 65></td>
 </tr>
 </table>
-<table id = "formName">
+<table id = "formText">
   <tr>
 
-  <th><td width = 275px>City</td></th><th><td width = 12%>&nbsp;State</td></th>
-  <td width = 50%>&nbsp;&nbsp;&nbsp;Zip</td></th>
+  <th><td width = 275px>City</td><th><td width = 12%>&nbsp;State</td>
+  <td width = 50%>&nbsp;&nbsp;&nbsp;Zip</td>
 </tr>
 <tr>
 </table>
-  <table id = "formName">
+  <table id = "formText">
 
-  <th><td width = 280px><input type = "text" name = "city"></th>
-    <th><td width = 90px><input type = "text" name = "state" size = 6></th>
-      <th><td width = 80px><input type = "text" name = "zip" size = 10></th>
+  <th><td width = 280px><input type = "text" name = "city">
+    <th><td width = 90px><input type = "text" name = "state" size = 6>
+      <th><td width = 80px><input type = "text" name = "zip" size = 10>
 
  </tr>
     </table>
-<table id = "formName">
+<table id = "formText">
   <tr>
-    <th><td width = 280px>Phone</td></th>
-    <th><td width = 280px>Country</td></th>
+    <th><td width = 280px>Phone</td>
+    <th><td width = 280px>Country</td>
   </tr>
 </table>
-<table id = "formName">
-
-    <th><td width = 280px><input type = "text" name = "Phone"></th>
+<table id = "formText">
+    <th><td width = 280px><input type = "text" name = "Phone">
       <th> <select>
-  <option value="volvo">Canada</option>
-  <option value="saab">United States</option>
+  <option value="canada">Canada</option>
+  <option value="united states">United States</option>
 </select> </th>
 
 </table>
-<table id = "formName">
+<table id = "formText">
   <tr>
-    <th><td width = 280px>Continent</td></th>
+    <th><td width = 280px>Continent</td>
   </tr>
 </table>
 <table id = "continentStyle">
-<div id = "test">
-
+<div id = "radioButtonStyle">
     <input type="radio" name="continent" value="northAmerica"> North America<br>
     <input type="radio" name="continent" value="europe"> Europe<br>
     <input type="radio" name="continent" value="southAmerica"> South America
@@ -122,36 +117,51 @@
 <br>
 <dt id = "userInfo">  &nbsp;&nbsp;3. Personal Details</dt>
    <hr width = 98% color = #D0D0D0>
-   <table id = "formName">
+   <table id = "formText">
      <tr>
      <th><td width = 280px>Birthday</td></th><th><td width = 280px>Favorite Color</td></th>
    </tr>
  </table>
- <table id = "formName">
+ <table id = "formText">
    <tr>
    <th><td width = 280px><input type="date" name="bday"></td></th><th><td width = 280px><input type = "color" name = "color"></td></th>
  </tr>
 </table>
-<table id = "formName">
+<table id = "formText">
   <tr>
   <th><td width = 280px>Interest in Art</td></th>
 </tr>
 </table>
 <div>
-  <span id = "test"> Minimal</span>
-  <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-  <span id = "test"> Love It!</span>
+  <span id = "sliderText">&nbsp;&nbsp;Minimal</span>
+  <input type="range" min="1" max="10" value="5" class="slider" id="myRange">
+  <span id = "sliderText"> Love It!</span>
+  <br>
   <br>
   <dt id = "userInfo">  &nbsp;&nbsp;4. All Done</dt>
-     <hr width = 98% color = #D0D0D0>
+  <hr width = 98% color = #D0D0D0>
+  <table id = "terms">
+     <span id = "userInfoStyle">&nbsp;&nbsp;<input type="checkbox">
+     I agree to the</span>
+    &nbsp; <span id = "userInfoStyleHighlight">Terms of the Site</span>
+   </table>
 </div>
 </table>
 
-</form>
-  <input type = "image" name = "Submit" src="button-ok.png">
-
+<table id = "formText">
+  <span>&nbsp;&nbsp;<input type = "image" name = "Submit" src="button_ok.png">
+</table>
    </div>
-
+   </form>
+   <br>
+   <div id = "darkFooter">
+     <span id = "darkFooterContainer">
+       <p id = "darkFooterText">
+      All images are copyright to their owners.
+      This is just a hypothetical site 2014 Copyright Art Store
+     </p>
+     </span>
+   </div>
 
      </body>
 </html>

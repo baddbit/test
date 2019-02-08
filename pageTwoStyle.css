@@ -3,9 +3,9 @@
   background-image: url(stucco.png);
 }
 
-#header{
+#darkHeader{
   margin-top: 0;
-  width: 1300px;
+  width: 1000px;
   height: 38px;
   background-color: #303030;
   margin-left: auto;
@@ -13,14 +13,14 @@
   vertical-align: middle;
 }
 
-#banner{
+#darkHeaderContainer{
   margin-top: 0;
   height: 38px;
   line-height: 38px;
   width: 100%;
 }
 
-#bannerText{
+#darkHeaderText{
   font-family: Tahoma, Verdana, sans-serif;
     margin-top: 0;
     text-align: right;
@@ -28,7 +28,7 @@
 }
 
 #artStoreText{
-  width: 1300px;
+  width: 1000px;
   font-family: Tahoma, Verdana, sans-serif;
   margin-top: 0;
   font-size: 36pt;
@@ -37,10 +37,10 @@
   margin-right: auto;
 }
 
-#menuBox{
+#menuContainer{
   font-family: Tahoma, Verdana, sans-serif;
     margin-top: 0;
-    width: 1300px;
+    width: 1000px;
     height: 38px;
     background-color: #F5F5F5;
     border: 1px solid #D0D0D0;
@@ -52,33 +52,69 @@
     font-weight: bold;
 }
 
-#formBox{
+#formBoxContainer{
   font-family: Tahoma, Verdana, sans-serif;
-    font-weight: bold;
-border: 1px solid #D0D0D0;
-    color: #303030;
-      font-size: 18pt;
+  font-weight: bold;
+  border: 1px solid #D0D0D0;
+  color: #303030;
+  font-size: 18pt;
   margin-top: 15px;
-  width: 1300px;
-  height: 800px;
+  width: 1000px;
+  height: 925px;
   background-color: white;
   margin-left: auto;
   margin-right: auto;
 }
-#formBoxHR{
-}
-
 
 #userInfo{
       font-weight: bold;
         font-size: 14pt;
 }
-
-#test{
+#userInfoStyle{
   font-weight: bold;
+    font-size: 12pt;
+}
+#userInfoStyleHighlight{
+  font-weight: bold;
+    font-size: 12pt;
+    color: blue;
+    text-decoration: underline;
+}
+
+#radioButtonStyle{
+  font-weight: normal;
   font-size: 12pt;
 }
-#formName{
+
+#sliderText{
+  font-weight: normal;
+  font-size: 12pt;
+}
+
+#formText{
     font-size: 12pt;
     align-items: flex-start;
+}
+
+#darkFooter{
+  width: 1000px;
+  height: 38px;
+  background-color: #303030;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+}
+
+#darkFooterContainer{
+  height: 38px;
+  line-height: 38px;
+  width: 100%;
+}
+
+#darkFooterText{
+  font-family: Tahoma, Verdana, sans-serif;
+  text-align: center;
+  font-weight: normal;
+  color: #A9A9A9;
+  font-size: 10pt;
 }
