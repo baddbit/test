@@ -12,20 +12,29 @@
   margin-left: auto;
   margin-right: auto;
   vertical-align: middle;
+    text-align: right;
 }
 
 #darkHeaderContainer{
   margin-top: 0;
   height: 38px;
   line-height: 38px;
-  width: 100%;
+    font-family: Tahoma, Verdana, sans-serif;
+    margin-top: 0;
+    color: #A9A9A9
 }
 
-#darkHeaderText{
-  font-family: Tahoma, Verdana, sans-serif;
-    margin-top: 0;
-    text-align: right;
-    color: #A9A9A9
+.hr{
+  width: 98%;
+  color: #D0D0D0;
+}
+
+.cellFormat{
+  width: 275px;
+}
+
+.cellFormat2{
+  width: 575px;
 }
 
 #artStoreText{
@@ -61,16 +70,37 @@
   font-size: 18pt;
   margin-top: 15px;
   width: 1000px;
-  height: 925px;
+  height: 955px;
   background-color: white;
   margin-left: auto;
   margin-right: auto;
 }
 
-#userInfo{
+.userInfo{
       font-weight: bold;
         font-size: 14pt;
 }
+
+#cellWidth{
+  width: 50%;
+}
+
+#cellWidth2{
+  width: 12%;
+}
+
+.cellWidth3{
+  width = 280px;
+}
+
+#cellWidth4{
+  width = 80px;
+}
+
+#cellWidth5{
+  width = 90px;
+}
+
 #userInfoStyle{
   font-weight: bold;
     font-size: 12pt;
@@ -87,12 +117,12 @@
   font-size: 12pt;
 }
 
-#sliderText{
+.sliderText{
   font-weight: normal;
   font-size: 12pt;
 }
 
-#formText{
+.formText{
     font-size: 12pt;
     align-items: flex-start;
 }
@@ -112,17 +142,14 @@
   margin-left: auto;
   margin-right: auto;
   vertical-align: middle;
+  text-align: center;
 }
 
 #darkFooterContainer{
   height: 38px;
   line-height: 38px;
   width: 100%;
-}
-
-#darkFooterText{
   font-family: Tahoma, Verdana, sans-serif;
-  text-align: center;
   font-weight: normal;
   color: #A9A9A9;
   font-size: 10pt;
