@@ -1,3 +1,4 @@
+
 #body{
   margin-top: 0;
   background-image: url(stucco.png);
@@ -95,7 +96,15 @@
     font-size: 12pt;
     align-items: flex-start;
 }
-
+#button {
+  background-color: #BFDDF8;
+  border-style: outset;
+  background-image: url("button_ok.png");
+  background-repeat: no-repeat;
+  margin-left: ;
+  padding-left: 32px;
+  padding-top: 15px;
+}
 #darkFooter{
   width: 1000px;
   height: 38px;

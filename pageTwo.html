@@ -96,7 +96,7 @@
 </table>
 <table id = "formText">
     <th><td width = 280px><input type = "text" name = "Phone">
-      <th> <select>
+      <th> <select name = "country">
   <option value="canada">Canada</option>
   <option value="united states">United States</option>
 </select> </th>
@@ -134,22 +134,23 @@
 </table>
 <div>
   <span id = "sliderText">&nbsp;&nbsp;Minimal</span>
-  <input type="range" min="1" max="10" value="5" class="slider" id="myRange">
+  <input type="range" min="0" max="10" value="5" step ="1" name ="interest">
   <span id = "sliderText"> Love It!</span>
   <br>
   <br>
   <dt id = "userInfo">  &nbsp;&nbsp;4. All Done</dt>
   <hr width = 98% color = #D0D0D0>
   <table id = "terms">
-     <span id = "userInfoStyle">&nbsp;&nbsp;<input type="checkbox">
+     <span id = "userInfoStyle">&nbsp;&nbsp;<input type="checkbox" name = "check">
      I agree to the</span>
-    &nbsp; <span id = "userInfoStyleHighlight">Terms of the Site</span>
+    <span id = "userInfoStyleHighlight"> Terms of the Site</span>
    </table>
 </div>
 </table>
 
 <table id = "formText">
-  <span>&nbsp;&nbsp;<input type = "image" name = "Submit" src="button_ok.png">
+  <button id = "button" name = "Submit">Sign me up!</button>
+  <!--<span>&nbsp;&nbsp;<button type = "image" name = "Submit" src="button_ok.png">-->
 </table>
    </div>
    </form>
@@ -164,4 +165,4 @@
    </div>
 
      </body>
-</html>
+     </html>
