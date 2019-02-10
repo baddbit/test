@@ -97,15 +97,15 @@ a{
 }
 
 .cellWidth3{
-  width = 280px;
+  width: 280px;
 }
 
 #cellWidth4{
-  width = 80px;
+  width: 80px;
 }
 
 #cellWidth5{
-  width = 90px;
+  width: 90px;
 }
 
 #userInfoStyle{
@@ -138,7 +138,7 @@ a{
   border-style: outset;
   background-image: url("button_ok.png");
   background-repeat: no-repeat;
-  margin-left: ;
+  margin-left;
   padding-left: 32px;
   padding-top: 15px;
 }
