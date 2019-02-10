@@ -62,6 +62,13 @@
     font-weight: bold;
 }
 
+a{
+    font-family: Tahoma, Verdana, sans-serif;
+    color: #A9A9A9;
+    font-size: 12pt;
+    text-decoration:none;
+}
+
 #formBoxContainer{
   font-family: Tahoma, Verdana, sans-serif;
   font-weight: bold;

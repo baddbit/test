@@ -20,7 +20,7 @@
 
    <div id = "menuContainer">
      &nbsp;&nbsp;&nbsp;&nbsp;
-     Home &nbsp;&nbsp;&nbsp;&nbsp;
+     <a href = pageOne.html>Home </a>&nbsp;&nbsp;&nbsp;&nbsp;
      About Us &nbsp;&nbsp;&nbsp;&nbsp;
      Art Works &nbsp;&nbsp;&nbsp;&nbsp;
      Artists &nbsp;&nbsp;&nbsp;&nbsp;
@@ -36,8 +36,8 @@
        <th><td class = "cellFormat">First Name</td><th><td class = "cellFormat">Last Name</td>
      </tr>
      <tr>
-       <th><td id = "first"><input type = "text" name = "firstName">
-         <th><td id = "last"><input type = "text" name = "lastName">
+       <th><td id = "first"><input type = "text" name = "first">
+         <th><td id = "last"><input type = "text" name = "last">
 
       </tr>
          </table>
@@ -46,7 +46,9 @@
         <th><td class = "cellFormat">Email</td>
       </tr>
       <tr>
-        <th><td class = "cellFormat2"><input type = "text" name = "email" size = 65></td>
+        <th><td class = "cellFormat2">
+          <input type = "text" placeholder = "format for email is xxx@yyy.zzz"
+          name = "email" size = 65></td>
       </tr>
     </table>
     <table class = "formText">
@@ -54,8 +56,10 @@
       <th><td class = "cellFormat">Password</td><th><td class = "cellFormat">Password Repeat</td>
     </tr>
     <tr>
-      <th><td class = "cellFormat"><input type = "text" name = "password">
-        <th><td class = "cellFormat"><input type = "text" name = "passwordRepeat">
+      <th><td class = "cellFormat"><input type = "text"
+        placeholder = "at least 8 characters" name = "pass1">
+        <th><td class = "cellFormat"><input type = "text"
+          placeholder = "at least 8 characters" name = "pass2">
      </tr>
         </table>
         <br>
@@ -71,9 +75,8 @@
 </table>
 <table class = "formText">
   <tr>
-
-  <th><td class = "cellFormat">City</td><th><td id = "cellWidth2">&nbsp;State</td>
-  <td id = "cellWidth">&nbsp;&nbsp;&nbsp;Zip</td>
+  <th><td class = "cellFormat">City</td><th><td id = "cellWidth2">State</td>
+  <td id = "cellWidth">Zip</td>
 </tr>
 
 </table>
@@ -81,19 +84,18 @@
     <tr><th>
   <td class = "cellFormat"><input type = "text" name = "city">
     <th><td id = "cellWidth5"><input type = "text" name = "state" size = 6>
-    <th>  <td id = "cellWidth4"><input type = "text" name = "zip" size = 10>
+    <th>  &nbsp;&nbsp;&nbsp;<td id = "cellWidth4"><input type = "text" name = "zip" size = 10>
 </tr>
     </table>
-<table class = "formText">
-  <tr>
-    <th><td class = "cellWidth3">Phone</td>
-    <th><td class = "cellWidth3">Country</td>
-  </tr>
+    <table class = "formText">
+      <tr>
+      <th><td class = "cellFormat">Phone</td><th><td id = "cellFormat">Country</td>
+    </tr>
 </table>
 <table class = "formText">
-  <tr><th>
-    <td class = "cellFormat"><input type = "text" name = "Phone">
-      <select name = "country">
+  <tr>
+    <th><td class = "cellFormat"><input type = "text" name = "phone">
+  <th><select name = "country">
   <option value="canada">Canada</option>
   <option value="united states">United States</option>
 </select></tr>
@@ -115,12 +117,13 @@
    <hr class = "hr">
    <table class = "formText">
      <tr>
-     <th><td class = "cellWidth3">Birthday</td><th><td class = "cellWidth3">Favorite Color</td>
+     <th><td class = "cellFormat">Birthday</td><th><td class = "cellWidth3">Favorite Color</td>
    </tr>
  </table>
  <table class = "formText">
    <tr>
-   <th><td class = cellWidth3><input type="date" name="bday"></td><th><td class = "cellWidth3"><input type = "color" name = "color"></td>
+   <th><td class = cellFormat><input type="date" name="birthday"></td>
+     <th><td class = "cellWidth3"><input type = "color" name = "favorite"></td>
  </tr>
 </table>
 <table class = "formText">
@@ -137,12 +140,12 @@
   <span class = "userInfo">  &nbsp;&nbsp;4. All Done</span>
   <hr class = "hr">
 
-     <span id = "userInfoStyle">&nbsp;&nbsp;<input type="checkbox" name = "check">
+     <span id = "userInfoStyle">&nbsp;&nbsp;<input type="checkbox" name = "accept">
      I agree to the</span>
     <span id = "userInfoStyleHighlight"> Terms of the Site</span>
 
 </div>
-  <button id = "button" name = "Submit">Sign me up!</button>
+  &nbsp;&nbsp;<button id = "button" name = "Submit">Sign me up!</button>
   <!--<span>&nbsp;&nbsp;<button type = "image" name = "Submit" src="button_ok.png">-->
 
    </form>
@@ -150,8 +153,9 @@
    <div id = "darkFooter">
      <span id = "darkFooterContainer">
       All images are copyright to their owners.
-      This is just a hypothetical site 2014 Copyright Art Store
+      This is just a hypothetical site &copy;2014 Copyright Art Store
      </span>
+
    </div>
 </div>
      </body>
