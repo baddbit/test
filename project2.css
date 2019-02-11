@@ -107,7 +107,7 @@ footer {
 }
 
 #productDesc {
-	padding: 15px auto;
+	padding: 15px;
 	text-align: left;
 }
 
@@ -141,7 +141,7 @@ footer {
 #buttons button {
 	font-weight: bold;
 	font-size: 12pt;
-	float: center;
+	float:none;
 	width: 250px;
 	height: 45px;
 }
@@ -184,11 +184,8 @@ footer {
 }
 
 #similarProducts button {
-	display: center;
 	margin-top: 10px;
 }
-
-<!-- end of first page -->
 
 .hr{
 	width: 98%;
