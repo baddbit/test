@@ -200,6 +200,11 @@ footer {
 	width: 575px;
 }
 
+#body1{
+  margin-top: 0;
+  background-image: url(stucco.png);
+}
+
 #formBoxContainer{
 	padding-top: 10px;
 	font-family: Tahoma, Verdana, sans-serif;
