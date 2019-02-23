@@ -1,0 +1,150 @@
+.topHeaderRow {
+	margin-top: 0;
+	padding: 10px;
+	background-color: midnightblue;
+	color: white;
+}
+
+.footerbg{
+	background-color: blue;
+	color: white;
+}
+.navBar {
+	padding: 5px;
+	background-color: mediumblue;
+	color: white;
+}
+
+.roundpics{
+	  border-radius: 50%;
+}
+
+#submitcolor{
+	background-color: hotpink;
+	width: 200px;
+}
+
+.floattext img{
+	float: left;
+}
+
+#inputspace {
+    margin-bottom: 18px;
+		display: block;
+}
+
+.navBar li {
+	padding-top: 25px;
+}
+
+.navBar form {
+	padding-top: 15px;
+}
+
+.navBar p {
+	padding-top: 10px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 28pt;
+	font-weight: bold;
+}
+
+.navBar button {
+	background-color: hotpink;
+	color: white;
+}
+
+.sideBar {
+	border: 2px solid lightgrey;
+}
+
+.sideBar div {
+	background-color: darkblue;
+	color: white;
+	padding: 5px;
+}
+
+.sideBar li {
+	border: 1px ridge lightgrey;
+	background-color: white;
+	color: lightblue;
+	padding: 10px;
+}
+
+.mainContent {
+	padding-bottom:20px;
+	padding-right: 5px;
+	padding-top: 20px;
+	padding-left: 5px;
+	display: inline;
+}
+
+.imageAndCaption img {
+	width: 600px;
+	height: 460px;
+}
+
+.imageAndCaption p {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.imageInfo {
+	background-color: white;
+	padding: 15px;
+	margin-bottom: 20px;
+}
+
+.imageInfo li {
+	font-weight: bold;
+}
+
+.buttonGroup div {
+	display: inline;
+}
+
+.buttonGroup button {
+	width: 72px;
+	padding: 5px;
+	margin-bottom: 15px;
+}
+
+#tags {
+	background-color: white;
+	padding: 20px;
+}
+
+#tags label {
+	background-color: blue;
+	padding: 5px;
+	color: white;
+}
+#cameracolor{
+	bakground-color: hotpink;
+}
+
+#usercolor{
+	background-color: midnightblue;
+}
+
+#tagcolor{
+	background-color: lightblue;
+}
+
+#bookmarkcolor{
+	background-color: deeppink;
+}
+
+#firecolor{
+	backgruond-color: lightcoral;
+}
+.new {
+	margin-top: 20px;
+	display: inline;
+}
+
+.botFooterRow {
+	padding: 5px;
+	background-color: midnightblue;
+	color: white;
+	text-align: center;
+}
