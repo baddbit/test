@@ -80,7 +80,9 @@
   <main class="mainContent">
     <div class="container-fluid">
     <div class="row">
-      <div class="col-md-2">
+      <div class="col-md-12">
+        <div class="row">
+          <div class="col-md-2">
           <aside class="sideBar">
                   <div >Continents</div>
                   <ul >
@@ -104,15 +106,16 @@
                       <li ><a href="#">United States</a></li>
                       <li ><a href="#">United Kingdom</a></li>
                   </ul>
-                </div>
+
 
             </aside>
+            </div>
       <!-- end of first attempt row fluid -->
 
 
 
-            <div class="col-md-10">
-                  <div class="col-md-9">
+
+                <div class="col-md-7">
                       <img  src="images/8711645510.jpg" alt="Temple of Hephaistos">
                       <p >Located on the western perimeter of Agora in Athens. Built in 460-415 BCE, it is the best preserved temple of antiquity. </p>
                   </div>
@@ -156,18 +159,20 @@
                           </div>
                       </div>
                     </div>
-                  </div>
+
 
 
 
           <!-- Related Photos -->
-
+          <div class="col-md-10">
             <div class="row">
-              <div class="col-md-offset-2" >
+              <div  >
                   <h3>Related Photos</h3>
               </div>
 
-              <div class="col-md-2 " >
+              <div class="col-md-5" >
+                <div class="row">
+                  <div class="col-md-6">
 
                       <a href="#" >
                           <img src="images/related/8710320515.jpg" alt="">
@@ -178,12 +183,12 @@
                           <button type="button" class="glyphicon glyphicon-heart"> Favorite</button>
                       </div>
 
-              </div>
+                  </div>
 
 
 
               <div >
-                 <div class="col-md-2">
+                 <div class="col-md-6">
                       <a href="#" >
                           <img src="images/related/8710513053.jpg" alt="">
                       </a>
@@ -194,9 +199,12 @@
                       </div>
                   </div>
               </div>
+            </div>
+          </div>
 
-              <div >
-                 <div class="col-md-2">
+            <div class="col-md-5">
+                   <div class="row">
+                     <div class="col-md-6">
                       <a href="#" >
                           <img  src="images/related/8711623884.jpg" alt="">
                       </a>
@@ -206,10 +214,9 @@
                           <button type="button" class="glyphicon glyphicon-heart"> Favorite</button>
                       </div>
                   </div>
-              </div>
 
               <div >
-                 <div class="col-2-md" >
+                 <div class="col-md-6" >
                       <a href="#" >
                           <img  src="images/related/9498388516.jpg" alt="">
                       </a>
@@ -220,10 +227,13 @@
                       </div>
                   </div>
               </div>
-              </div>
-              </div>
             </div>
-            </div>
+          </div>
+          </div>
+    </div>
+    </div>
+</div>
+</div>
 
 
   </main>
