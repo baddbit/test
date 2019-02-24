@@ -85,7 +85,7 @@
 
 .navBar p {
 	padding-top: 5px;
-	font-family: "Times New Roman", Times, serif;
+	font-family: Lobster;
 	font-size: 24pt;
 	font-weight: bold;
 }
