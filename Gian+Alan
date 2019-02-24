@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Chapter 7</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>	
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="p3.css" />
+
+</head>
+
+<body>
+    <header>
+        <div class="topHeaderRow">
+            <div class="container-fluid">
+                <div class="row">
+                    <ul class="list-unstyled">
+                      <div class="col-md-10 text-right">
+                        <li><span class="glyphicon glyphicon-log-out"></span><a href="#"> Logout</a></li>
+                      </div>
+                      <div class="col-md-1 text-left">
+                        <li><span class="glyphicon glyphicon-user"></span><a href="#"> Profile</a></li>
+                      </div>
+                      <div class="col-md-1.5 text-left">
+                        <li><span class="glyphicon glyphicon-star"></span><a href="#"> Favorites</a></li>
+                      </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+	</header>
+    
+	<!-- end topHeaderRow -->
+
+    <nav class="navBar">
+        <div class="container-fluid">
+            <div class="row-fluid">
+				<ul class="list-unstyled">
+					<div class="col-md-3 text-left">
+						<p>Share Your Travels</p>
+					</div>
+					<div class="col-md-1 text-left">
+						<li><a href="#">Home</a></li>
+					</div>
+					<div class="col-md-1 text-left">
+						<li><a href="#">About</a></li>
+					</div>
+					<div class="col-md-1 text-left">
+						<li><a href="#">Contact</a></li>
+					</div>
+					<div class="col-md-1 text-left">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Browse <span class="caret"></span></a>
+							<ul class= "dropdown-menu dropdown-menu-right">
+								<li><a href="#">Countries</a></li>
+								<li><a href="#">Images</a></li>
+								<li><a href="#">Posts</a></li>								
+							</ul>
+						</li>
+					</div>
+                </ul>
+                <form >
+                    <div class="col-md-3">
+                        <input type="text"  placeholder="Search">
+						<button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- end of the nav bar -->
+	
+    <main class="mainContent">
+		<div class="container-fluid">
+			<div class="row-fluid">
+				<div class = "col-md-2">
+					<aside class="sideBar">	
+						<div>Continents</div>
+						<ul class="list-unstyled">
+							<li><a href="#">Africa</a></li>
+							<li><a href="#">Asia</a></li>
+							<li><a href="#">Europe</a></li>
+							<li><a href="#">North America</a></li>
+							<li><a href="#">South America</a></li>
+						</ul>
+					</aside>
+					<aside class="sideBar">
+						<div>Popular</div>
+						<ul class="list-unstyled">
+							<li ><a href="#">Canada</a></li>
+							<li ><a href="#">France</a></li>
+							<li ><a href="#">Italy</a></li>
+							<li ><a href="#">Germany</a></li>
+							<li ><a href="#">Ghana</a></li>
+							<li ><a href="#">Greece</a></li>
+							<li ><a href="#">Hungary</a></li>
+							<li ><a href="#">Spain</a></li>
+							<li ><a href="#">United States</a></li>
+							<li ><a href="#">United Kingdom</a></li>
+						</ul>
+					</aside>
+				</div>
+						
+				<!-- end of col 1-->
+				
+				<div class="col-md-10">
+					<div class="row-fluid">
+						<div class="col-sm-12">
+							<div class="imageAndCaption">
+								<img  src="images/8711645510.jpg" alt="Temple of Hephaistos">
+								<p >Located on the western perimeter of Agora in Athens. Built in 460-415 BCE, it is </br>the best preserved temple of antiquity. </p>
+							</div>
+							<h2>Temple of Hephaistos</h2>
+							<div class="imageInfo">
+								<div>
+									<ul class="list-unstyled">
+										<li>By: <a href="#">Ellie Sullivan</a></li>
+										<li>Country: <a href="#">Greece</a></li>
+										<li>City: <a href="#">Athens</a></li>
+										<li>Taken on: August 8, 2017</li>
+									</ul>
+								</div>
+							</div>
+							<span class="buttonGroup">
+								<div >
+									<button type="button" class="glyphicon glyphicon-heart"></button>
+								</div>
+								<div >
+									<button type="button" class="glyphicon glyphicon-download-alt"></button>
+								</div>
+								<div >
+									<button type="button" class="glyphicon glyphicon-print"></button>
+								</div>
+								<div >
+									<button type="button" class="glyphicon glyphicon-comment"></button>
+								</div>
+							</span>
+							<h4>Tags</h4>
+							<div id="tags">
+								<label >ancient</label>
+								<label >garden</label>
+								<label >hill</label>
+								<label >ruins</label>
+								<label >sunshine</label>
+								<label >temple</label>
+							</div>
+						</div>
+					</div>
+
+					<!-- end of col 2 -->
+						
+					<div class="row-fluid">
+						<div class="col-sm-12 justify-content-between">
+							<h3>Related Photos</h3>
+							<div class="relatedPhotos">
+								<a href="#" >
+									<img src="images/related/8710320515.jpg" alt="Ekklisia Agii Isidori">
+								</a>
+								<div >
+									<h6>Ekklisia Agii Isidori</h6>
+									<button type="button" class = "glyphicon glyphicon-eye-open blueButton">View</button>
+									<button type="button" class="glyphicon glyphicon-heart pinkButton">Favorite</button>
+								</div>
+							</div>
+							<div class = "relatedPhotos">
+								<a href="#" >
+									<img src="images/related/8710513053.jpg" alt="Theatre of Dionysos">
+								</a>
+								<div >
+									<h6>Theatre of Dionysos</h6>
+									<button type="button" class = "glyphicon glyphicon-eye-open blueButton">View</button>
+									<button type="button" class="glyphicon glyphicon-heart pinkButton">Favorite</button>
+								</div>
+							</div>
+							<div class="relatedPhotos">
+								<a href="#" >
+									<img  src="images/related/8711623884.jpg" alt="Roman Agora">
+								</a>
+								<div >
+									<h6>Roman Agora</h6>
+									<button type="button" class = "glyphicon glyphicon-eye-open blueButton">View</button>
+									<button type="button" class="glyphicon glyphicon-heart pinkButton">Favorite</button>
+								</div>
+							</div>
+							<div class="relatedPhotos">
+								<a href="#" >
+									<img  src="images/related/9498388516.jpg" alt="Temple of Asclepius">
+								</a>
+								<div >
+									<h6>Temple of Asclepius</h6>
+									<button type="button" class = "glyphicon glyphicon-eye-open blueButton">View</button>
+									<button type="button" class="glyphicon glyphicon-heart pinkButton">Favorite</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+    <div class = "footerbg">
+        <div class="container-fluid">
+            <div class="row-fluid">
+				<div class="row-fluid">
+					<div class="row-fluid">
+						<div class ="col-md-6">
+							<div id = "marginspace">
+								<h4>Share YourTravels</h4>
+								<p>This is a case study from the textbook <em>Fundamentals of Web Development</em>. This book is published by Pearson Ed, and is the only textbook that covers the essentials of the entire field of contemporary web development. </p>
+							</div>
+							<div>
+								<div class="col-md-6">
+									<h5>Headquarters</h5>
+									Mount Royal University<br>
+									4825 Mount Royal Gate SW<br>
+									Calgary, Canada, T3E 6K6
+								</div>
+								<div class="col-md-6">
+									<h5>Follow Us</h5>
+									<button id = "cameracolor" type="button" class="glyphicon glyphicon-camera"></button>
+									<button id = "usercolor" type="button" class="glyphicon glyphicon-user"></button>
+									<button id = "tagcolor" type="button" class="glyphicon glyphicon-tags"></button>
+									<button id = "bookmarkcolor" type="button" class="glyphicon glyphicon-bookmark"></button>
+									<button id = "firecolor"type="button" class="glyphicon glyphicon-fire"></button>
+								</div>
+							</div>
+						</div>
+                	</div>
+					<div class="col-md-3">
+						<div class = "rposts">
+							<h5><span class = "glyphicon glyphicon-pencil"></span>Recent Posts</h5>
+							<label id = "inputspace2">
+								<div class = "floattext">
+									<a  href="#">
+										<img class = "roundpics" src="images/footer/6592294487.jpg" alt="...">
+									</a>
+									<div >
+										<p class = "rposts"><a href="#">Calgary in the Snow</a></p>
+										<em>5 minutes ago</em>
+									</div>
+								</div>
+							</label>
+							<label id = "inputspace2">
+								<div class = "floattext">
+									<a href="#">
+										<img class = "roundpics"  src="images/footer/6114904363.jpg" alt="...">
+									</a>
+									<div >
+										<p class = "rposts"><a href="#">Mountain Climbing</a></p>
+										<em>11 minutes ago</em>
+									</div>
+								</div>
+							</label>
+							<label id = "inputspace2">
+								<div class = "floattext">
+									<a  href="#">
+										<img class = "roundpics" src="images/footer/5856697109.jpg" alt="...">
+									</a>
+									<div >
+										<p class = "rposts"><a href="#">Nova Scotia</a></p>
+										<em>23 minutes ago</em>
+									</div>
+								</div>
+							</label>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<h5><span class = "glyphicon glyphicon-envelope"></span> Contact us</h5>
+						<form role="form">
+							<label id = "inputspace">
+								<label class="sr-only" for="name">Name</label>
+								<input type="text"  name="email" placeholder="Enter name ...">
+							</label>
+							<label id = "inputspace">
+								<label class="sr-only" for="email">Email</label>
+								<input type="email"  name="email" placeholder="Enter email ...">
+							</label>
+							<label id = "inputspace">
+								<label class="sr-only" for="email">Email</label>
+								<textarea  rows="3" placeholder="Enter message ..."></textarea>
+							</label>
+							<label id = "inputspace">
+								<button id = "submitcolor" type="submit" >Submit</button>
+							</label>
+						</form>
+					</div>
+				</div>
+			</div>
+        </div>
+	</div>
+	<footer>
+		<div class = "botFooterRow">
+			<div class="container-fluid">            
+				<div class="row">
+					<p>Copyright &copy; 2017 Creative Commons ShareAlike</p>
+					<p><a href="#">Home</a> / <a href="#">About</a> / <a href="#">Contact</a> / <a href="#">Browse</a></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+</html>
